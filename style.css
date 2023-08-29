@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,300&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -12,13 +12,14 @@ body {
 }
 
 .top {
-    background-color: darkred;
+    background-color: #1f2937;
     display:flex;
     justify-content: center;
 }
 
 .logo {
     font-size: 24px;
+    color: #f9faf8;
     font-weight: bold;
 }
 
@@ -39,12 +40,11 @@ body {
 
 .tabs a {
     text-decoration: none;
-    color: aliceblue;
+    color: #e5e7eb;
 }
 
 .banner {
     padding: 125px 0;
-    font-size: 18px;
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .banner-img {
-    background-color: darkslategrey;
+    background-color: darkgrey;
     height: 230px;
     display: flex;
     justify-content: center;
@@ -62,28 +62,33 @@ body {
 }
 
 .hero {
-    font-size: 52px;
+    font-size: 48px;
+    color: #f9faf8;
     font-weight: bold;
 }
 
 .hero-text {
     padding-right: 50px;
     padding-bottom: 12px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 button {
-    background-color: dodgerblue;
+    background-color: #3882f6;
     border: none;
     color:aliceblue;
     font-weight: bold;
     padding: 8px 40px;
     text-align: center;
     border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer {
     height: 64px;
-    background-color: darkred;
+    background-color: #1f2937;
     font-size: 14px;
     color:aliceblue;
     display: flex;
