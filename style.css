@@ -125,6 +125,31 @@ section {
     color: #57595c;
 }
 
+.ref-section {
+    padding: 100px 0;
+    background-color:#e5e7eb;
+    display: flex;
+}
+
+.ref-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.referral {
+    width: 790px;
+    color: #57595c;
+    font-size: 36px;
+    font-style: italic;
+    flex-basis: auto;
+}
+
+.ref-signature {
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 22px;
+    padding-right: 30px;
+    align-self: flex-end;
+}
 .footer {
     height: 64px;
     background-color: #1f2937;
