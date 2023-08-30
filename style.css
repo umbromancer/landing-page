@@ -189,9 +189,9 @@ section {
 }
 
 .footer {
-    height: 64px;
+    height: 100px;
     background-color: #1f2937;
-    font-size: 14px;
+    font-size: 18px;
     color:#f9faf8;
     display: flex;
     justify-content: center;
